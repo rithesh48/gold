@@ -1,0 +1,18 @@
+{
+  "name": "gold",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.8",
+    "date-fns": "^4.1.0",
+    "hono": "^4.7.4",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/date-fns": "^2.5.3",
+    "@types/node": "^20.11.17",
+    "tsx": "^4.7.1"
+  }
+}
