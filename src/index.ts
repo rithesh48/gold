@@ -80,7 +80,7 @@ app.delete('/reminders/:id', (c) => {
 });
 
 // POST /reminders/:id/mark-completed - Mark a reminder as completed
-app.post('/reminders/:id/mark-completed', (c) => {
+app.post('/`reminders/:id/mark-completed', (c) => {
   const id = c.req.param('id');
   const reminder = reminders.find((r) => r.id === id);
 
